@@ -27,13 +27,16 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # setup zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+echo "\n\n" >> ~/.zshrc
 
 # setup zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo "\n\n" >> ~/.zshrc
 
 # setup fnm
 echo "eval \"$(fnm env --use-on-cd)\"" >> ~/.zshrc
+echo "\n\n" >> ~/.zshrc
 
 # alias
 echo "zource='source ~/.zshrc'" >> ~/.zshrc
