@@ -42,5 +42,11 @@ echo "\n\n" >> ~/.zshrc
 echo "zource='source ~/.zshrc'" >> ~/.zshrc
 echo "zshrc='code ~/.zshrc'" >> ~/.zshrc
 
+# Homebrew
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+
+# Homebrew: Python
+echo 'export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"' >> ~/.zshrc
+
 # clean dock
 dockutil --remove all
