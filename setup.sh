@@ -7,6 +7,7 @@ git \
 docker \
 fnm \
 dockutil \
+gh \
 
 
 # install casks 
