@@ -8,6 +8,7 @@ docker \
 fnm \
 dockutil \
 gh \
+python
 
 
 # install casks 
@@ -18,7 +19,7 @@ visual-studio-code \
 bitwarden \
 spotify \
 rectangle \
-pika \
+pika
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
