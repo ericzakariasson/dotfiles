@@ -6,6 +6,7 @@ brew install \
 git \
 docker \
 fnm \
+dockutil \
 
 
 # install casks 
@@ -35,3 +36,6 @@ echo "eval \"$(fnm env --use-on-cd)\"" >> ~/.zshrc
 # alias
 echo "zource='source ~/.zshrc'" >> ~/.zshrc
 echo "zshrc='code ~/.zshrc'" >> ~/.zshrc
+
+# clean dock
+dockutil --remove all
