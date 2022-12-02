@@ -72,3 +72,9 @@ echo 'zshrc="code ~/.zshrc"' >> ~/.zshrc
 git config --global user.name ericzakariasson
 git config --global user.email <email>
 ```
+
+9. Install node 16
+
+```sh
+fnm install 16
+```
