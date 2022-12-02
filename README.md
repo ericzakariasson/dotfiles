@@ -13,7 +13,6 @@
 ```sh
 brew install \
 git \
-docker \
 fnm \
 dockutil \
 gh \
@@ -30,6 +29,7 @@ visual-studio-code \
 bitwarden \
 spotify \
 rectangle \
+docker \
 pika
 ```
 
