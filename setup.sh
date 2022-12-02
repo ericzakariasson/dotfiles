@@ -35,7 +35,7 @@ echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 echo "\n\n" >> ~/.zshrc
 
 # setup fnm
-echo "eval \"$(fnm env --use-on-cd)\"" >> ~/.zshrc
+echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
 echo "\n\n" >> ~/.zshrc
 
 # alias
