@@ -23,7 +23,8 @@ python
 
 ```sh
 brew install --cask \
-iterm2 \
+warp \
+notion \
 discord \
 visual-studio-code \
 bitwarden \
